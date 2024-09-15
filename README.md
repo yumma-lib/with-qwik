@@ -1,4 +1,4 @@
-<h3 align="center">Yumma CSS — Next.js</h3>
+<h3 align="center">Yumma CSS — Dotnet</h3>
 
 <p align="center">
   This is a Dotnet Yumma CSS example.
