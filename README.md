@@ -24,7 +24,7 @@ Then you can go ahead and install the dependencies.
 npm install
 ```
 
-Once that's done, you can start local development by cliking the <kbd>F5</kbd>.
+Once that's done, you can start local development by clicking the <kbd>F5</kbd>.
 
 ## License
 
