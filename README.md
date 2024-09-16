@@ -15,7 +15,7 @@ Yumma CSS is a utility-first library that uses abbreviated naming conventions th
 The first thing you need to do is clone the repository.
 
 ```bash
-git clone 
+git clone https://github.com/yumma-lib/dotnet-yummacss-example.git
 ```
 
 Then you can go ahead and install the dependencies.
