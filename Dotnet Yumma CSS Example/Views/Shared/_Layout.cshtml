@@ -4,56 +4,54 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Dotnet Yumma CSS Example</title>
-    <link rel="stylesheet" href="~/lib/yummacss/dist/yumma.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/Dotnet_Yumma_CSS_Example.styles.css" asp-append-version="true" />
 </head>
-<body>
-    <header class="bb-1 bc-l-silver-6 d-f fs-sm fw-w sm:fw-nw sm:jc-fs w-full bg-white py-4">
-        <nav class="sm:ai-c sm:d-f sm:jc-sb mx-auto w-full px-4">
-            <div class="ai-c d-f jc-sb">
-                <a class="f-none fs-xl fw-600" asp-area="" asp-controller="Home" asp-action="Index">Dotnet Yumma CSS Example</a>
-                <div class="sm:d-none">
-                    <button class="c-p ai-c b-1 bc-l-silver-6 bs-sm cg-2 d-if jc-c rad-2 tc-d-silver-6 bg-white p-2" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <svg class="dim-4 fs-0" stroke-width="1.5" viewBox="0 0 24 24" fill="none">
-                            <path d="M3 5H21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                            <path d="M3 12H21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                            <path d="M3 19H21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg>
-                    </button>
+    <body>
+        <header class="bb-1 bc-l-silver-6 d-f fs-sm fw-w sm:fw-nw sm:jc-fs w-full bg-white py-4">
+            <nav class="sm:ai-c sm:d-f sm:jc-sb mx-auto w-full px-4">
+                <div class="ai-c d-f jc-sb">
+                    <a class="f-none fs-xl fw-600" asp-area="" asp-controller="Home" asp-action="Index">Dotnet Yumma CSS Example</a>
+                    <div class="sm:d-none">
+                        <button class="c-p ai-c b-1 bc-l-silver-6 bs-sm cg-2 d-if jc-c rad-2 tc-d-silver-6 bg-white p-2" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <svg class="dim-4 fs-0" stroke-width="1.5" viewBox="0 0 24 24" fill="none">
+                                <path d="M3 5H21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M3 12H21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M3 19H21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </button>
+                    </div>
                 </div>
-            </div>
-            <div class="d-none fb-full fg-1 ovf-h sm:d-b">
-                <div class="d-f fd-c g-5 sm:ai-c sm:fd-r sm:jc-fe sm:pl-5">
-                    <a class="fw-600 tc-indigo" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                    <a class="fw-600 h:tc-black tc-lead" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                <div class="d-none fb-full fg-1 ovf-h sm:d-b">
+                    <div class="d-f fd-c g-5 sm:ai-c sm:fd-r sm:jc-fe sm:pl-5">
+                        <a class="fw-600 tc-indigo" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        <a class="fw-600 h:tc-black tc-lead" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                    </div>
                 </div>
-            </div>
-        </nav>
-    </header>
+            </nav>
+        </header>
 
-    <div class="h-1/1">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
-
-    <footer class="bt-1 bc-l-silver-6 py-8">
-        <div class="mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="d-f fd-c ai-c s-y-4 md:fd-r md:jc-sb">
-                <div class="ta-c md:ta-l">
-                    <h2 class="fs-lg fw-600 tc-d-lead-2">Dotnet Yumma CSS Example</h2>
-                    <p class="mt-2 tc-l-lead-2">&copy; 2024 Dotnet Yumma CSS Example. All rights reserved.</p>
-                </div>
-                <nav class="d-f s-x-4">
-                    <a asp-area="" asp-controller="Home" asp-action="Index" class="tc-l-lead-2 h:tc-lead">Home</a>
-                    <a asp-area="" asp-controller="Home" asp-action="Privacy" class="tc-l-lead-2 h:tc-lead">Privacy</a>
-                </nav>
-            </div>
+        <div class="h-1/1">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
         </div>
-    </footer>
 
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
-</body>
+        <footer class="bt-1 bc-l-silver-6 py-8">
+            <div class="mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="d-f fd-c ai-c s-y-4 md:fd-r md:jc-sb">
+                    <div class="ta-c md:ta-l">
+                        <h2 class="fs-lg fw-600 tc-d-lead-2">Dotnet Yumma CSS Example</h2>
+                        <p class="mt-2 tc-l-lead-2">&copy; 2024 Dotnet Yumma CSS Example. All rights reserved.</p>
+                    </div>
+                    <nav class="d-f s-x-4">
+                        <a asp-area="" asp-controller="Home" asp-action="Index" class="tc-l-lead-2 h:tc-lead">Home</a>
+                        <a asp-area="" asp-controller="Home" asp-action="Privacy" class="tc-l-lead-2 h:tc-lead">Privacy</a>
+                    </nav>
+                </div>
+            </div>
+        </footer>
+
+        <script src="~/js/site.js" asp-append-version="true"></script>
+        @await RenderSectionAsync("Scripts", required: false)
+    </body>
 </html>
