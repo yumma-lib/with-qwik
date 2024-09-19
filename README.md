@@ -21,7 +21,7 @@ git clone https://github.com/yumma-lib/dotnet-yummacss-example.git
 Then you can go ahead and install the dependencies.
 
 ```bash
-npm install
+npm i
 ```
 
 Once that's done, you can start local development by clicking the <kbd>F5</kbd>.
