@@ -1,4 +1,4 @@
-<h3 align="center">Yumma CSS — ASP.NET MVC</h3>
+<h3 align="center">Yumma CSS — .NET</h3>
 
 <p align="center">
   This is a Dotnet Yumma CSS example.
