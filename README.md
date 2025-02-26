@@ -7,7 +7,7 @@
 <h3 align="center">Yumma CSS 🤝 .NET</h3>
 
 <p align="center">
-  Learn how to integrate Yumma CSS with Astro.
+  Learn how to integrate Yumma CSS with .NET
   <br>
   <a href="https://yummacss.com"><strong>Read the documentation ↝</strong></a>
 
