@@ -1,30 +1,19 @@
-<h3 align="center">Yumma CSS — .NET</h3>
+<div align="center">
+  <a href="https://yummacss.com" target="_blank" target="_blank" rel="noopener noreferrer">
+    <img alt="Yumma CSS" src="https://www.yummacss.com/trademark/mark.png" width="110" style="max-width: 100%;">
+  </a>
+</div>
+
+<h3 align="center">Yumma CSS 🤝 .NET</h3>
 
 <p align="center">
-  A .NET project with Yumma CSS.
+  Learn how to integrate Yumma CSS with Astro.
   <br>
   <a href="https://yummacss.com"><strong>Read the documentation ↝</strong></a>
-</p>
-  
+
 ## Get started
 
-Yumma CSS is a utility-first library that uses abbreviated naming conventions that follow regular CSS syntax to help you debug, scale, and maintain your markup better and get your application out the door faster.
-
-## Installation
-
-The first thing you need to do is clone the repository.
-
-```bash
-git clone https://github.com/yumma-lib/dotnet-yummacss-example.git
-```
-
-Then you can go ahead and install the dependencies.
-
-```bash
-npm i
-```
-
-Once that's done, you can start local development by clicking the <kbd>F5</kbd>.
+Read the [framework guide for .NET integration](https://www.yummacss.com/docs/guides/dotnet) with Yumma CSS.
 
 ## License
 
