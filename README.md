@@ -4,16 +4,16 @@
   </a>
 </div>
 
-<h3 align="center">Yumma CSS 🤝 .NET</h3>
+<h3 align="center">Yumma CSS 🤝 Quik</h3>
 
 <p align="center">
-  Learn how to integrate Yumma CSS with .NET
+  Learn how to integrate Yumma CSS with Quik
   <br>
   <a href="https://yummacss.com"><strong>Read the documentation ↝</strong></a>
 
 ## Get started
 
-Read the [framework guide for .NET integration](https://www.yummacss.com/docs/guides/dotnet) with Yumma CSS.
+Read the [framework guide for Quik integration](https://www.yummacss.com/docs/guides/quik) with Yumma CSS.
 
 ## License
 
