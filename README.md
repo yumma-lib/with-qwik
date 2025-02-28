@@ -4,16 +4,16 @@
   </a>
 </div>
 
-<h3 align="center">Yumma CSS 🤝 Quik</h3>
+<h3 align="center">Yumma CSS 🤝 Qwik</h3>
 
 <p align="center">
-  Learn how to integrate Yumma CSS with Quik
+  Learn how to integrate Yumma CSS with Qwik
   <br>
   <a href="https://yummacss.com"><strong>Read the documentation ↝</strong></a>
 
 ## Get started
 
-Read the [framework guide for Quik integration](https://www.yummacss.com/docs/guides/quik) with Yumma CSS.
+Read the [framework guide for Qwik integration](https://www.yummacss.com/docs/guides/qwik) with Yumma CSS.
 
 ## License
 
