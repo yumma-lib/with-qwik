@@ -1,19 +1,26 @@
 <div align="center">
-  <a href="https://yummacss.com" target="_blank" target="_blank" rel="noopener noreferrer">
-    <img alt="Yumma CSS" src="https://www.yummacss.com/trademark/mark.png" width="110" style="max-width: 100%;">
+  <a href="https://yummacss.com" target="_blank" rel="noopener noreferrer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://yummacss.com/assets/dark-logotype.png">
+      <source media="(prefers-color-scheme: light)" srcset="https://yummacss.com/assets/light-logotype.png">
+      <img alt="Yumma CSS" src="https://yummacss.com/assets/light-logotype.png" width="220" style="max-width: 100%;">
+    </picture>
   </a>
 </div>
 
-<h3 align="center">Yumma CSS 🤝 Qwik</h3>
+<h2 align="center">Qwik with Yumma CSS</h2>
 
 <p align="center">
-  Learn how to integrate Yumma CSS with Qwik
-  <br>
-  <a href="https://yummacss.com"><strong>Read the documentation ↝</strong></a>
+  This is a premade Qwik project using Yuma CSS.
+</p>
 
-## Get started
+### Getting started
 
-Read the [framework guide for Qwik integration](https://www.yummacss.com/docs/guides/qwik) with Yumma CSS.
+Clone the repository:
+
+```bash
+git clone https://github.com/yumma-lib/with-qwik.git
+```
 
 ## License
 
