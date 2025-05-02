@@ -11,7 +11,7 @@
 <h2 align="center">Qwik with Yumma CSS</h2>
 
 <p align="center">
-  This is a premade Qwik project using Yuma CSS.
+  A premade Qwik project using Yuma CSS.
 </p>
 
 ### Getting started
