@@ -1,1 +1,69 @@
-@import "yummacss/dist/yumma.min.css";
+*, :before, :after {
+  box-sizing: border-box;
+  border: 0 solid;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+}
+
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+a:focus {
+  outline: 2px solid #0000;
+}
+
+h1 {
+  overflow-wrap: break-word;
+  text-wrap: balance;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+code {
+  font-family: monospace;
+  font-size: 1em;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.h-dvh {
+  height: 100dvh;
+}
+
+.bg-indigo-12 {
+  background-color: #0e0f23;
+}
+
+.tc-white {
+  color: #fff;
+}
+
+.pi-c {
+  place-items: center;
+}
+
+.d-g {
+  display: grid;
+}
+
+.fs-3xl {
+  font-size: 1.875rem;
+}
+
+.fw-500 {
+  font-weight: 500;
+}

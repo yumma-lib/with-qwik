@@ -1,6 +1,6 @@
 {
-  "name": "my-qwik-empty-starter",
-  "description": "Blank project with routing included",
+  "name": "with-qwik",
+  "description": "Qwik with Yumma CSS.",
   "engines": {
     "node": "^18.17.0 || ^20.3.0 || >=21.0.0"
   },
@@ -35,9 +35,7 @@
     "typescript": "5.4.5",
     "undici": "*",
     "vite": "5.3.5",
-    "vite-tsconfig-paths": "^4.2.1"
-  },
-  "dependencies": {
-    "yummacss": "^2.1.0"
+    "vite-tsconfig-paths": "^4.2.1",
+    "yummacss": "^3.0.0"
   }
 }
