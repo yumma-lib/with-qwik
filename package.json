@@ -1,5 +1,6 @@
 {
   "name": "with-qwik",
+  "version": "0.0.0",
   "description": "Qwik with Yumma CSS.",
   "private": true,
   "type": "module",
