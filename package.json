@@ -1,10 +1,6 @@
 {
   "name": "with-qwik",
   "description": "Qwik with Yumma CSS.",
-  "engines": {
-    "node": "^18.17.0 || ^20.3.0 || >=21.0.0"
-  },
-  "engines-annotation": "Mostly required by sharp which needs a Node-API v9 compatible runtime",
   "private": true,
   "type": "module",
   "scripts": {
@@ -37,5 +33,8 @@
     "vite": "5.3.5",
     "vite-tsconfig-paths": "^4.2.1",
     "yummacss": "^3.0.0"
+  },
+  "engines": {
+    "node": "^18.17.0 || ^20.3.0 || >=21.0.0"
   }
 }
